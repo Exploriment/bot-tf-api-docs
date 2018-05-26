@@ -122,3 +122,46 @@ Most parameters are self-explanatory, those are not documented below.
 | `itemsme[n].craftable` | boolean | Craftability of the item (TF2). Always `true` if other game. |
 | `itemsme[n].australium` | boolean | Is this item australium? (TF2). Always `false` if other game. |
 | `itemsme[n].attributes` | object | Object with attributes of the item (Steam tags). Always empty if TF2. |
+
+## Retrieve all pending incoming offers
+```http
+GET /offers/pending/incoming
+```
+
+#### Parameters
+None.
+
+#### Response
+See `GET /offers/:offerid`
+```json
+{
+  "offers": [ ]
+}
+```
+
+## Retrieve all pending outgoing offers
+```http
+GET /offers/pending/outgoing
+```
+
+#### Parameters
+None.
+
+#### Response
+See `GET /offers/:offerid`
+```json
+{
+  "offers": [ ]
+}
+```
+
+## Decline or cancel a trade offer
+```http
+DELETE /offers/:offerid
+```
+
+#### Parameters
+None.
+
+#### Response
+Empty response on success.
