@@ -11,41 +11,43 @@ None.
 #### Response
 ```json
 {
-  "bot": {
-    "id": 36,
-    "steamid": "76561198296137471",
-    "name": "Alerts & Payments | bot.tf",
-    "avatar": "https://i.imgur.com/9Ta5l83.jpg",
-    "bgasset": "7925219710",
-    "gamename": "Bot.tf: No bots available 😞",
-    "offerurl": "https://steamcommunity.com/tradeoffer/new/?partner=335871743&token=rUHP_4eI",
-    "autorenew": true,
-    "allowescrow": false,
-    "allowoverpay": true,
-    "allowprivate": true,
-    "manualitemoffers": false,
-    "description": "[i]Add me if you would like to receive a notification whenever Bot.tf has bots available![/i]\r\n\r\nThis bot [b][u]NEVER[/u][/b] sends you a trade offer taking items from you! :2016snocone:",
-    "hideinfeed": true,
-    "invitegroupid": "103582791452307934",
-    "tf2": {
-      "maxslots": 1000,
-      "autocraft": false,
-      "autocraftweapons": true,
-      "autosorttype": 3,
-      "riskytradethreshold": 15,
-      "backpacktf": {
-        "enabled": false,
-        "buynotes": "[⇄] 24/7 TRADING BOT! // Send me a trade offer!",
-        "sellnotes": "[⇄] 24/7 TRADING BOT! // Send me a trade offer!",
-        "premium": false
-      },
-      "autoprice": {
-        "enabled": false,
-        "interval": 2,
-        "last": null
+  "bots": [
+    {
+      "id": 36,
+      "steamid": "76561198296137471",
+      "name": "Alerts & Payments | bot.tf",
+      "avatar": "https://i.imgur.com/9Ta5l83.jpg",
+      "bgasset": "7925219710",
+      "gamename": "Bot.tf: No bots available 😞",
+      "offerurl": "https://steamcommunity.com/tradeoffer/new/?partner=335871743&token=rUHP_4eI",
+      "autorenew": true,
+      "allowescrow": false,
+      "allowoverpay": true,
+      "allowprivate": true,
+      "manualitemoffers": false,
+      "description": "[i]Add me if you would like to receive a notification whenever Bot.tf has bots available![/i]\r\n\r\nThis bot [b][u]NEVER[/u][/b] sends you a trade offer taking items from you! :2016snocone:",
+      "hideinfeed": true,
+      "invitegroupid": "103582791452307934",
+      "tf2": {
+        "maxslots": 1000,
+        "autocraft": false,
+        "autocraftweapons": true,
+        "autosorttype": 3,
+        "riskytradethreshold": 15,
+        "backpacktf": {
+          "enabled": false,
+          "buynotes": "[⇄] 24/7 TRADING BOT! // Send me a trade offer!",
+          "sellnotes": "[⇄] 24/7 TRADING BOT! // Send me a trade offer!",
+          "premium": false
+        },
+        "autoprice": {
+          "enabled": false,
+          "interval": 2,
+          "last": null
+        }
       }
     }
-  }
+  ]
 }
 ```
 

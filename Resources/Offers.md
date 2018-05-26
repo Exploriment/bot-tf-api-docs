@@ -51,7 +51,7 @@ None.
         "craftable": true,
         "marketable": false,
         "australium": false,
-        "attributes": []
+        "attributes": {}
       }
     ],
     "itemsthem": [
@@ -75,7 +75,7 @@ None.
         "craftable": true,
         "marketable": false,
         "australium": false,
-        "attributes": []
+        "attributes": {}
       },
       {
         "id": 104790066,
@@ -97,7 +97,7 @@ None.
         "craftable": true,
         "marketable": false,
         "australium": false,
-        "attributes": []
+        "attributes": {}
       }
     ]
   }

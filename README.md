@@ -20,7 +20,14 @@ By default you have a rate limit of 500 requests per hour, this is reset every h
 
 You may request higher limits by raising a support ticket and stating your usage of the API.
 
+## Request
+When submitting data to the API, the API accepts the following content types:
+  * `application/json`
+  * `application/xml`
+  * `application/x-www-form-urlencoded`
+
 ## Response template
+Responses are always in `application/json`.
 ```json
 {
   "data": { },
